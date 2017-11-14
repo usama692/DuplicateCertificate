@@ -13,7 +13,7 @@ class Performa extends CI_Controller {
         $this->output->set_header("Pragma: no-cache");
     }
     public function index()
-    {
+    {             
         $this->load->library('session');
         if($this->session->flashdata('error'))
         {
